@@ -23,10 +23,38 @@ HV-DC				2048MB dynamisch																1
 HV-SQL1            statisch  5 GB									 3000MB					       4
 HV-SQL2			statisch 5 GB									 3000MB                       4
 
-
+Beachte NUMA Knoten (zuordnung Socket zu Speicherslots.. )  sollte immer die akt Hardware wiederspieglen.
 
 schulung\Administrator
 ppedv2019!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
