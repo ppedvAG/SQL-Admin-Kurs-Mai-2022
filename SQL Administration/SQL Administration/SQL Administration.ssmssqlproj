@@ -19,6 +19,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="01_Setupund Virtualisierung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01_Setupund Virtualisierung.sql</FullPath>
+        </FileNode>
         <FileNode Name="01_Virtualisierung.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
@@ -31,11 +37,29 @@
           <AssociatedConnUserName />
           <FullPath>02_Installation.sql</FullPath>
         </FileNode>
+        <FileNode Name="02_Kontrolle Serversettings.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>02_Kontrolle Serversettings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03_DB Settings.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>03_DB Settings.sql</FullPath>
+        </FileNode>
         <FileNode Name="03_Serversettings.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>03_Serversettings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04_DB Design.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>04_DB Design.sql</FullPath>
         </FileNode>
         <FileNode Name="04_SystemDbs.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
@@ -49,6 +73,18 @@
           <AssociatedConnUserName />
           <FullPath>05_DBSettings.sql</FullPath>
         </FileNode>
+        <FileNode Name="05_SystemDBs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>05_SystemDBs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="06_Agent.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06_Agent.sql</FullPath>
+        </FileNode>
         <FileNode Name="06_DBObjekte.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -61,10 +97,137 @@
           <AssociatedConnUserName />
           <FullPath>07_Agent.sql</FullPath>
         </FileNode>
+        <FileNode Name="07_Dababasemail.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>07_Dababasemail.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_backup_Restore.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>08_backup_Restore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="08_Warnungen.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>08_Warnungen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="09_Backup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>09_Backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10_Snapshot.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>10_Snapshot.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_Sicherugsplan einer DB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>11_Sicherugsplan einer DB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12_Security.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>12_Security.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12b_VerwaisteUser.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>12b_VerwaisteUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12c_Anwendungsroll.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>12c_Anwendungsroll.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_Überwachung.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>13_Überwachung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_Monitoring.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>14_Monitoring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>15_indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16_IX_Wartung.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16_IX_Wartung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tag2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Tag2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Überflüssige Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Überflüssige Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="x_Glenn Berry DMVs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>x_Glenn Berry DMVs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="x_sp_help_revlogin.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>x_sp_help_revlogin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="x_VLF messen.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>x_VLF messen.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z_Perfmon_Indikatoren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>z_Perfmon_Indikatoren.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
-      <Items />
+      <Items>
+        <FileNode Name="SQL Administration.ssmssqlproj">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL Administration.ssmssqlproj</FullPath>
+        </FileNode>
+        <FileNode Name="SQLPerfmonVorlage.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLPerfmonVorlage.xml</FullPath>
+        </FileNode>
+      </Items>
     </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
